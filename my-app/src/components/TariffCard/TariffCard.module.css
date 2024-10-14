@@ -1,0 +1,88 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 463px;
+  max-width: 384px;
+  padding: 24px 28px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px 0px #0000001a;
+}
+.title_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+.tariff_name {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40.6px;
+  text-align: left;
+}
+.card_number {
+  width: 68px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+
+  background-color: #24a419;
+}
+.tariff_number_text {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: left;
+
+  color: #fff;
+}
+.subtitle_container {
+  margin-top: 10px;
+}
+.subtitle_text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+
+  color: #808080;
+}
+.hint_text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #24a419;
+
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1099px) {
+  .card {
+    height: 350px;
+    max-width: 300px;
+  }
+  .tariff_name {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .card_number {
+    width: 32px;
+    height: 32px;
+  }
+  .tariff_number_text {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .subtitle_text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .hint_text {
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

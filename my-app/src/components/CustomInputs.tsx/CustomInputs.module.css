@@ -1,0 +1,68 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 384px;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.input {
+  height: 50px;
+  background: #f7f7f7;
+  font-size: 16px;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  width: 100%;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.nameInput {
+  height: 50px;
+  background: #f7f7f7;
+  font-size: 16px;
+  padding: 0 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.disable_border {
+  border: none;
+}
+
+.input::placeholder {
+  color: #808080;
+}
+
+.phoneContainer {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.countryCode {
+  margin-right: 8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (max-width: 1099px) {
+  .inputContainer {
+    align-self: center;
+    width: 100%;
+  }
+}
